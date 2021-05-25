@@ -44,3 +44,9 @@ ul li a:hover{
     color: white;
     line-height: 10px;
 }
+
+@media screen and (max-width: 768px){
+    .box-area{
+        left: 10%;
+    }
+}
