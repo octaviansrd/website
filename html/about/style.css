@@ -1,0 +1,54 @@
+body{
+    color: rgb(50, 205, 50);
+    background-color: rgb(29, 29, 29);
+    font-family: "Courier";
+}
+
+.box-area{    
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+}
+
+.hi{
+    font-size: 30px;
+    line-height: 0px;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+ul li a:hover{
+    color: rgb(50, 205, 50);
+    text-decoration: underline;
+}
+
+.info{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .box-area{
+        left: 10%;
+        right: 10%;
+    }
+}

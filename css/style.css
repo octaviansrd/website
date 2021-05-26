@@ -1,7 +1,7 @@
 body{
     color: rgb(50, 205, 50);
     background-color: rgb(29, 29, 29);
-    font-family: "Courier New";
+    font-family: "Courier";
 }
 
 .box-area{    
@@ -9,6 +9,7 @@ body{
     position: absolute;
     top: 10%;
     left: 20%;
+    right: 20%;
 }
 
 .hi{
@@ -37,7 +38,7 @@ ul li a:hover{
     text-decoration: underline;
 }
 
-.info{
+.info_s{
     margin-top: 50px;
     font-size: 20px;
     text-align: left;
@@ -45,8 +46,17 @@ ul li a:hover{
     line-height: 10px;
 }
 
+.info_b{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    line-height: 30px;
+}
+
 @media screen and (max-width: 768px){
     .box-area{
         left: 10%;
+        right: 10%;
     }
 }
