@@ -10,6 +10,7 @@ body{
     top: 10%;
     left: 20%;
     right: 20%;
+    bottom: 0%;
 }
 
 .hi{
@@ -52,6 +53,12 @@ ul li a:hover{
     text-align: left;
     color: white;
     line-height: 30px;
+}
+
+.footer{
+    position: inherit;
+    bottom: 0px;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 768px){
